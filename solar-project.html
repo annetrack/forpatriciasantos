@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#100e1b">
+<meta name="theme-color" content="#f7f4fb">
 <title>J Solar Solutions | Systems & Automation</title>
 <style>
 :root{--bg:#f7f4fb;--panel:#ffffff;--panel2:#eee8f8;--ink:#29243a;--muted:#6f687f;--pink:#d95f9c;--violet:#8a72d6;--line:rgba(54,43,78,.14);--max:1060px}
@@ -18,7 +18,7 @@ h1 em{font-style:normal;background:linear-gradient(100deg,var(--pink),var(--viol
 .lead{max-width:660px;color:var(--muted);font-size:15px;margin:0}
 .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:23px}
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 15px;border:1px solid var(--line);border-radius:999px;font-size:11px;font-weight:750;transition:transform .2s,border-color .2s}
-.btn:hover{transform:translateY(-2px);border-color:rgba(255,184,213,.7)}.primary{background:linear-gradient(110deg,var(--pink),var(--violet));color:#21162c;border-color:transparent}
+.btn:hover{transform:translateY(-2px);border-color:rgba(255,184,213,.7)}.primary{background:#d94f96;color:#fff;border-color:#d94f96;box-shadow:0 5px 14px rgba(217,79,150,.16)}.primary:hover{background:#bd367e;border-color:#bd367e;color:#fff}
 .section{padding:38px 0 52px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:22px;margin-bottom:20px}h2{font-size:clamp(27px,4vw,39px);line-height:1.1;letter-spacing:-.045em;margin:7px 0 0;font-weight:620}.section-intro{font-size:13px;color:var(--muted);max-width:390px;margin:0}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 .card{border:1px solid var(--line);border-radius:19px;background:linear-gradient(145deg,#fff,rgba(246,241,252,.92));padding:18px;overflow:hidden}
@@ -26,7 +26,7 @@ h1 em{font-style:normal;background:linear-gradient(100deg,var(--pink),var(--viol
 .card .kicker{margin-top:17px;display:block}.card h3{font-size:21px;letter-spacing:-.035em;margin:6px 0}.card p{font-size:12px;color:var(--muted);margin:0}
 .card .btn{margin-top:16px}
 .proof{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.metric{flex:1;min-width:90px;background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:12px;padding:12px}.metric strong{font-size:24px;letter-spacing:-.05em;display:block}.metric span{font-size:10px;color:var(--muted)}
-.pricing-preview{display:block;margin:0 0 18px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff;transition:border-color .2s,transform .2s}.pricing-preview:hover{border-color:rgba(255,184,213,.65);transform:translateY(-2px)}.pricing-image{display:block;width:100%;height:auto;max-height:540px;object-fit:contain;background:#f8f7f1}.pricing-link-label{display:block;padding:13px 17px;color:var(--pink);font-size:12px;font-weight:750}.proposal{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;padding:22px;border-radius:18px;border:1px solid rgba(197,180,255,.25);background:linear-gradient(120deg,rgba(255,184,213,.2),rgba(197,180,255,.2)),#f0eafa}
+.pricing-image{display:block;width:100%;height:auto;max-height:540px;object-fit:contain;background:#f8f7f1;border:1px solid var(--line);border-radius:18px}.proposal{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;margin-top:14px;padding:22px;border-radius:18px;border:1px solid rgba(217,79,150,.24);background:linear-gradient(115deg,#f8ddeb,#eee6ff);box-shadow:0 8px 24px rgba(67,44,88,.06)}
 .proposal h3{font-size:21px;margin:6px 0}.proposal p{font-size:12px;color:var(--muted);margin:0;max-width:650px}
 footer{border-top:1px solid var(--line);padding:20px 0 26px;color:var(--muted);font-size:10px}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 @media(max-width:720px){.nav{min-height:62px}.back{font-size:10px}.hero{padding:50px 0 30px}.lead{font-size:14px}.section{padding:30px 0 38px}.section-head{display:block}.section-intro{margin-top:10px}.grid{grid-template-columns:1fr}.card{padding:14px}.proposal{grid-template-columns:1fr}.proof{gap:7px}.metric{padding:10px}}
@@ -70,13 +70,10 @@ footer{border-top:1px solid var(--line);padding:20px 0 26px;color:var(--muted);f
 
 <section class="section wrap" id="proposal">
 <div class="section-head"><div><div class="kicker">03 / Project investment</div><h2>Project scope &amp; pricing</h2></div><p class="section-intro">Review the proposed investment and what's included in the J Solar Solutions build.</p></div>
-<a class="pricing-preview" href="j-solar-project-report.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the full J Solar Solutions project report PDF">
-<img class="pricing-image" src="solar-investment-preview.png" alt="Preview of the J Solar Solutions investment options and project pricing">
-<span class="pricing-link-label">Project pricing preview · Click to view the full report ↗</span>
-</a>
+<img class="pricing-image" src="solar-investment-preview.png" alt="J Solar Solutions investment options: recommended package at ₱80,000 and core-only option at ₱65,000">
 <div class="proposal">
-<div><div class="kicker">Full project report</div><h3>J Solar Solutions · Lead to Quotation System</h3><p>Includes the recommended system, implementation scope, investment options, payment terms, and next steps.</p></div>
-<a class="btn primary" href="j-solar-project-report.pdf" target="_blank" rel="noopener noreferrer">View Full Report PDF ↗</a>
+<div><div class="kicker">Full project report</div><h3>J Solar Solutions · Lead to Quotation System</h3><p>Review the complete scope, investment options, payment terms, and next steps in the PDF report.</p></div>
+<a class="btn primary" href="j-solar-project-report.pdf" target="_blank" rel="noopener noreferrer">View Full Report ↗</a>
 </div>
 </section>
 </main>
